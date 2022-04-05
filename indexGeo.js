@@ -11,7 +11,7 @@ function initMap() {
   });
   // NOTE: This uses cross-domain XHR, and may not work on older browsers.
   // map.data.loadGeoJson('https://storage.googleapis.com/mapsdevsite/json/google.json');
-  map.data.loadGeoJson('./multipolygon.geojson');
+  map.data.loadGeoJson('./maps/multipolygon.geojson');
   // map.data.loadGeoJson('https://iniedu.com/geojson/maps.json');
 
   map.data.setStyle(function(feature) {
